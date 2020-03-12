@@ -2,10 +2,10 @@ module.exports = {
   siteMetadata: {
     title: `Melonsodastation`,
     author: `KIM SANHON`,
-    description: `©melonsodastation.`,
+    description: `©2020 melonsodastation. All rights reserved.`,
     siteUrl: `https://melonsodastation.netlify.com/`,
     social: {
-      //twitter: `kylemathews` ,
+      facebook: `melonsodastation` ,
     },
   },
   plugins: [
