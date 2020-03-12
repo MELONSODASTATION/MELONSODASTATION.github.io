@@ -10,7 +10,9 @@ deploy:
   on:
     tags: true
 
-install: 
+before_install: yarn global add gatsby-cli
+
+install: yarn build
 
 dist: trusty
 sudo: false
