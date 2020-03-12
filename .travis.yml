@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - '13.7.0'
+
+deploy:
+  provider: releases
+  api_key: $GITHUB_TOKEN
+  file: "FILE TO UPLOAD"
+  skip_cleanup: true
+  on:
+    tags: true
+
+install: 
+
+dist: trusty
+sudo: false

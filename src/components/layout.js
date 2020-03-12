@@ -61,7 +61,7 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()}, melonsodastation. All rights reserved. Built with
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>
       </footer>
