@@ -16,7 +16,7 @@ const Bio = () => {
     query BioQuery {
       avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
         childImageSharp {
-          fixed(width: 50, height: 50) {
+          fixed(width: 100, height: 100) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -55,14 +55,14 @@ const Bio = () => {
         }}
       />
       <p>
-        김상헌이 보고 느낀것 적는 곳.
-      <br>
         {` `}
         {
          <a href={`https://www.facebook.com/${social.facebook}`}>
           Written by <strong>{author}</strong>.
-        </a> } 
-      <br>
+        </a> }
+        <br/>
+        김상헌이 보고 느낀것 적는 곳. 
+        <br/>
         Email : melonsodastation@gmail.com
       </p>
     </div>
