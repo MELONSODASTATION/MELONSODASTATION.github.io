@@ -34,6 +34,7 @@ const Bio = () => {
 
   const { author, social } = data.site.siteMetadata
   return (
+    //자기소개영역
     <div
       style={{
         display: `flex`,
@@ -55,15 +56,13 @@ const Bio = () => {
       />
       <p>
         김상헌이 보고 느낀것 적는 곳.
-      </p>
-      <p>
+      <br>
         {` `}
         {
          <a href={`https://www.facebook.com/${social.facebook}`}>
           Written by <strong>{author}</strong>.
         </a> } 
-      </p>
-      <p>
+      <br>
         Email : melonsodastation@gmail.com
       </p>
     </div>
