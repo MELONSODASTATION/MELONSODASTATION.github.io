@@ -1,9 +1,16 @@
 language: node_js
 node_js:
-  - '13.7.0'
+  - lts/*
 
 dist: trusty
 sudo: false
+
+deploy:
+- provider: script
+  skip_cleanup: true
+  script: bash scripts/deploy.sh
+  on:
+    branch: master
 
 cache:
 directories:
