@@ -56,13 +56,13 @@ const Bio = () => {
       />
       <p>
         김상헌이 보고 느낀것 적는 곳.
-      <br>
+      <br/>
         {` `}
         {
          <a href={`https://www.facebook.com/${social.facebook}`}>
           Written by <strong>{author}</strong>.
         </a> } 
-      <br>
+      <br/>
         Email : melonsodastation@gmail.com
       </p>
     </div>
